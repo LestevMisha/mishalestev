@@ -1,0 +1,112 @@
+html,
+body,
+section {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+section.b-section {
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+section.b-section.b-section-preview {
+    margin-top: 1em;
+}
+
+section.b-section .container {
+    position: relative;
+    max-width: 2048px;
+    padding: 0 128px;
+    margin: 0 auto;
+}
+
+.b-text {
+    font-size: 1em;
+    width: fit-content;
+    height: fit-content;
+}
+
+.b-text.b-text_semi {
+    font-weight: 600;
+}
+
+.hblock {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 1em;
+}
+
+.b-img {
+    position: relative;
+    width: 1em;
+    height: 1em;
+}
+
+.b-img.b-img_ml {
+    width: 5em;
+    height: 5em;
+    border-radius: 1em;
+}
+
+/* adaptive layout */
+/* max-width */
+@media (max-width: 576px) {
+    section.b-section .container {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    section.b-section .container {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 1920px) {
+    section.b-section .container {
+        padding: 0 60px;
+    }
+}
+
+/* min-width */
+@media (min-width: 576px) {
+    section.b-section .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    section.b-section .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    section.b-section .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    section.b-section .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    section.b-section .container {
+        max-width: 1320px;
+    }
+}
+
+
+
+
+
