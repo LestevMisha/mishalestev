@@ -10,14 +10,47 @@
 
 <body>
     <section class="b-section b-section-preview">
-        <div class="container">
-            <div class="hblock">
-                <img class="b-img b-img_ml" src="./images/mishalestev.jpg" alt="avatar">
-                <div class="b-text b-text_semi">Hi there, I am Misha Lestev</div>
+        <div class="b-container">
+            <div class="vblock">
+                <div class="hblock turnmob">
+                    <img class="b-img b-img_ml" src="./images/mishalestev.jpg" alt="avatar">
+                    <div class="vblock">
+                        <div>
+                            <div class="b-text b-text_semi">Hi there, I am Misha Lestev</div>
+                            <div class="b-text b-text_description">Click underlined text to copy it</div>
+                        </div>
+
+                        <div class="hblock hblock_center">
+                            <img src="./images/arrow-right.svg" alt="arrow-right" class="b-img b-img_1.25em b_img_1">
+                            <div><span class="b-text">Phone number: </span><span class="b-text b-text_copy">+1 (612)
+                                    363-3328</span></div>
+                        </div>
+
+                        <div class="hblock hblock_center">
+                            <img src="./images/arrow-right.svg" alt="arrow-right" class="b-img b-img_1.25em b_img_1">
+                            <div><span class="b-text">Email: </span><span
+                                    class="b-text b-text_copy">lestev.mi@gmail.com</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex_h flex_gap">
+                    <a href="https://github.com/LestevMisha"><img src="./images/github.svg" alt="arrow-right"
+                            class="b-img b-img_1.25em"></a>
+                    <a href="https://t.me/mishalestev"><img src="./images/telegram.svg" alt="arrow-right"
+                            class="b-img b-img_1.25em"></a>
+                    <a href="https://youtube.com/@MishaLestev"><img src="./images/youtube.svg" alt="arrow-right"
+                            class="b-img b-img_1.25em"></a>
+                </div>
             </div>
-            
+
         </div>
     </section>
+
+    <div id="modal" class="b-modal">
+        <div class="b-modal_copy">Text copied to clipboard.</div>
+    </div>
+
+    <script src="./main.js"></script>
 </body>
 
 </html>
